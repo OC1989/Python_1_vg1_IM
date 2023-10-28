@@ -1,4 +1,4 @@
-#Eksempel på if-setning - valg av morgenhilsen
+# Eksempel på if-setning - valg av morgenhilsen
 
 svar=input("Hei, har du en god morgen? Svar J eller N: ")
 if svar == "J":
