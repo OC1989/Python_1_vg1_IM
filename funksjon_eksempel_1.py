@@ -6,7 +6,7 @@ def kast_terning():
     resultat = random.randint(1, 6)
     return resultat
 
-# For å kjøre en funksjon må man kalle funksjonen:
+# For å kjøre en funksjon må man kalle på funksjonen vi har laget:
 kast = kast_terning()
 
 # Til slutt skriver vi ut resultatet, med {kast} som mellomliggende variabel
