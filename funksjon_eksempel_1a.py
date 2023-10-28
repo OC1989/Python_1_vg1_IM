@@ -7,4 +7,6 @@ def kast_terning():
     return resultat
 
 # Vi skriver ut resultatet av terningkastet
-print(kast_terning())
+print(
+    kast_terning()
+)
