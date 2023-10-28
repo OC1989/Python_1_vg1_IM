@@ -1,4 +1,4 @@
-# Eksempel på en for-løkke som utfører en matematisk operasjon og oppdaterer en liste
+# Eksempel på en for-løkke som utfører en matematisk operasjon, og i tillegg oppdaterer en liste
 
 # Lag en liste med tall
 liste = [2, 4, 6, 8, 10]
