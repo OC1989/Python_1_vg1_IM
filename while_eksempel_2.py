@@ -4,13 +4,12 @@
 import random
 hemmelig_tall = random.randint(1, 10)
 
-# Initialiser en variabel for brukerens gjetninger
+# Initialiser en variabel for brukerens gjett
 gjett = 0
 
 # Start en while-løkke som kjører så lenge brukeren ikke har gjettet riktig
 while gjett != hemmelig_tall:
-    gjett = int(input("Gjett tallet (mellom 1 og 10): ")  # Spør brukeren om å gjette et tall
-    
+    gjett = int(input("Gjett tallet (mellom 1 og 10): "))  # Merk den ekstra parentesen
     if gjett == hemmelig_tall:
         print("Gratulerer, du gjettet riktig!")
     else:
