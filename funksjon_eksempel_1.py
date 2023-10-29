@@ -6,7 +6,7 @@ def lag_hilsen(navn):
 # Spør brukeren om navnet deres
 navn = input("Hva er navnet ditt? ")
 
-# Kall på funksjonen for å lage hilsen
+# Kall funksjonen for å lage hilsen
 hilsen = lag_hilsen(navn)
 
 # Vis hilsenen
