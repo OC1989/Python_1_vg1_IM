@@ -9,5 +9,5 @@ def kast_terning():
 # For å kjøre en funksjon må man kalle på funksjonen vi har laget:
 kast = kast_terning()
 
-# Til slutt skriver vi ut resultatet, med {kast} som mellomliggende variabel
+# Til slutt skriver vi ut resultatet, med {kast} som mellomliggende variabel. Vi bruker da noe som heter f-string.
 print(f'Du kastet {kast} på terningen')
